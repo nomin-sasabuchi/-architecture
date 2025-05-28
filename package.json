@@ -5,9 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon",
-    "dev": "node --no-warnings index.js"
+    "start": "nodemon --exec node --loader ts-node/esm src/main.ts"
   },
   "keywords": [],
   "author": "",
